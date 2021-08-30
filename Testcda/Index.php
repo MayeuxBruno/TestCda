@@ -23,6 +23,7 @@ $routes=[
 	"default"=>["PHP/VIEW/","Accueil","Accueil"],
 	"Accueil"=>["PHP/VIEW/","Accueil","Accueil"],
 	"FormVille"=>["PHP/VIEW/","FormVille","FormVille"],
+	"actionForm"=>["PHP/VIEW/","ActionForm","ActionForm"],
 	"TestvilleManager"=>["PHP/MODEL/TESTMANAGER/","TestvilleManager","Test de ville"],
 ];
 

@@ -3,7 +3,7 @@
         <div class="vide"></div>
         <div class="justify"><h1>Liste des villes</h1></div>
         <div class="vide"></div>
-        <div class="justify"><button><a href="index.php?page=FormVille&mode=edit"><i class="far fa-plus-square"></i>Ajouter une ville</a></button></div>
+        <div class="justify"><button><a href="index.php?page=FormVille&mode=ajout"><i class="far fa-plus-square"></i>Ajouter une ville</a></button></div>
         <div class="vide"></div>
         <?php
             $lesVilles=VilleManager::getList();

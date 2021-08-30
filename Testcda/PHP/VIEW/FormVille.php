@@ -19,18 +19,20 @@ switch ($mode)
         }
         case "ajout" :
         {
+            echo '<h3>Ajouter une ville</h3>';
             echo '<form action="index.php?page=actionForm&mode=ajout" method="POST">';
-            echo '<input name="idVille" value="'.$villeChoisie->getIdVille().'" type="hidden" />'; 
             break;
         }
         case "modif" :
         {
+            echo '<h3>Modifier une ville</h3>';
             echo '<form action="index.php?page=actionForm&mode=modif" method="POST">';
             echo '<input name="idVille" value="'.$villeChoisie->getIdVille().'" type="hidden" />'; 
             break;
         }
         case "delete" :
         {
+            echo '<h3>Supprimer une ville</h3>';
             echo '<form action="index.php?page=actionForm&mode=delete" method="POST">';
             echo '<input name="idVille" value="'.$villeChoisie->getIdVille().'" type="hidden" />'; 
             break;
